@@ -1,4 +1,6 @@
 /* ---- reset ---- */
+html { height:350%; }
+
 
 body {
   margin: 0;
@@ -16,9 +18,16 @@ canvas {
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 450%;
 }
 
+@media (max-width: 540px){
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 300%;
+  }
+}
 body {
   color: #303841;
   font-family: 'Inter', sans-serif;}

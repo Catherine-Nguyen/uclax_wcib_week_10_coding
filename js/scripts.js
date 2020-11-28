@@ -1,3 +1,4 @@
+
 particlesJS("particles-js", {
   "particles": {
     "number": {
@@ -22,7 +23,7 @@ particlesJS("particles-js", {
       "image": {
         "src": "img/github.svg",
         "width": 100,
-        "height": 100
+        "height": 450,
       }
     },
     "opacity": {
