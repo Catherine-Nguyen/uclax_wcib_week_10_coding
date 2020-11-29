@@ -98,38 +98,23 @@ h2 {
   h1 {
     font-size: 18px; } }
 
-main img {
-  width: 100%; }
-
-.gallery-image {
-  margin-bottom: 2rem;
-  position: relative; }
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(0, 0, 0, 0.5); }
-
-.gallery-image:hover .overlay {
-  opacity: 1; }
-
-.overlay-text {
-  color: white;
-  font-size: 1.5rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center; }
+section {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+  ul {
+      margin-left: 20%;
+      margin-right: 20%;
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
+      color: #303841;
+}
+  li {
+     background-color: #303841;
+     margin: 10px;
+     padding: 10px;
+     border-radius: 10px;	}
 
 footer {
   padding-top: 3rem;
