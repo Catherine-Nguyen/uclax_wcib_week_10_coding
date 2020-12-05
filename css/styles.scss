@@ -1,7 +1,4 @@
 /* ---- reset ---- */
-html { height:350%; }
-
-
 body {
   margin: 0;
   background-color: #d3d6db;
@@ -18,16 +15,10 @@ canvas {
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 450%;
+  height: 100%;
+  background-repeat:repeat-y;
 }
 
-@media (max-width: 540px){
-  #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 300%;
-  }
-}
 body {
   color: #303841;
   font-family: 'Inter', sans-serif;}
@@ -110,26 +101,17 @@ body {
     font-size: 20px;
     padding-left: 10px;}
   @media (max-width: 540px) {
-    h1 {
+    h2 {
       font-size: 18px;; } }
+  p {
+    font-size: 16px;
+    padding-left: 50px;}
+  @media (max-width: 540px) {
+    p {
+      font-size: 12px;;
+      padding-top: 25px;
+      padding-left: 0px;} }
 
-section {
-    margin-left: 20%;
-    margin-right: 20%;
-}
-ul {
-    margin-left: 20%;
-    margin-right: 20%;
-    list-style: none;
-    padding: 0;
-    font-size: 18px;
-    color: #303841;
-}
-li {
-   background-color: #303841;
-   margin: 10px;
-   padding: 10px;
-   border-radius: 10px;	}   
   footer {
     padding-top: 3rem;
     padding-bottom: 1rem; }
@@ -156,3 +138,37 @@ li {
       margin-right: 50px;
       margin-bottom: -20px;
     }
+
+  main {
+      padding-left: 30%;
+      padding-right: 30%; }
+    @media (max-width: 992px) {
+    main {
+        padding-left: 10%;
+        padding-right: 10%; } }
+    @media (max-width: 768px) {
+      main {
+        text-align: center; } }
+    @media (max-width: 480px) {
+      main {
+        padding-left: 0;
+        padding-right: 0; } }
+  .self-portrait {
+      width: 50%;
+      height: auto;
+    }
+
+    .nav-text-text {
+      background-color: #303841;
+      color: #d3d6db;
+      border: none;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+      padding: 0.8rem;
+      border-radius: 7px;
+      font-size: 10px;
+      letter-spacing: 1px;}
+
+    .nav-text-text:hover {
+      background-color: #Be3144;
+      color: #d3d6db; }
